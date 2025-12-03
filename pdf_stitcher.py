@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-'''
+"""
 Example usage:
-python .\pdf_stitcher.py 'C:\Users\Greg Izatt\Downloads\M7374MWW_a4_download1.pdf' --first-page 2 --last-page 61 --dpi 72 --rows 5 --cols 12 --margin-vertical-in 0.09 --margin-horizontal-in 0.09 test.png
-'''
+python .\pdf_stitcher.py <input> --first-page 2 --last-page 61 --dpi 72 --rows 5 --cols 12 --margin-vertical-in 0.09 --margin-horizontal-in 0.09 test.png
+"""
 import math
 import argparse
 import io
