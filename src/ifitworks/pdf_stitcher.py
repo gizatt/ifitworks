@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
 """
 Example usage:
-python .\pdf_stitcher.py <input> --first-page 2 --last-page 61 --dpi 72 --rows 5 --cols 12 --margin-vertical-in 0.09 --margin-horizontal-in 0.09 test.png
+pdf-stitcher <input> --first-page 2 --last-page 61 --dpi 72 --rows 5 --cols 12 --margin-vertical-in 0.09 --margin-horizontal-in 0.09 test.png
+
+Or as a module:
+python -m ifitworks.pdf_stitcher <input> --first-page 2 --last-page 61 --dpi 72 --rows 5 --cols 12 --margin-vertical-in 0.09 --margin-horizontal-in 0.09 test.png
 """
 import math
 import argparse
